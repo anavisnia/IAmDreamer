@@ -1,0 +1,588 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nanum Myeongjo", serif;
+}
+
+/* HEADER START */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* permatomumas */
+  background-color: rgba(0, 0, 0, 0.801);
+  height: 25px;
+}
+
+.logo {
+  display: none;
+}
+
+nav {
+  text-align: center;
+  height: 25px;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding-inline-start: 0px;
+  height: auto;
+}
+
+.li-nav-item {
+  display: inline-block;
+}
+
+.navbar__link {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(163, 163, 163);
+  font-size: 15px;
+  padding: 3px 5px;
+  margin: 0px 5px;
+  align-self: center;
+}
+
+.navbar__link:hover {
+  color: antiquewhite;
+}
+
+/* HEADER END */
+/* ======================================================== */
+.container {
+  width: 100%;
+}
+/* ======================================================== */
+/* HOME SECTION START */
+.home {
+  margin-top: 25px;
+}
+
+.home {
+  background-color: rgb(216, 216, 216);
+}
+
+.home-info {
+  display: block;
+  text-align: center;
+}
+
+.home-btns {
+  width: 222px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.home-info h1 {
+  font-size: 30px;
+  padding: 30px 30px 20px;
+  color: rgb(95, 95, 95);
+}
+
+.home-btn {
+  margin: 0px 10px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(78, 78, 78);
+  padding: 0px 30px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+.home-btn:hover {
+  color: rgb(163, 163, 163);
+}
+
+/* HOME END */
+/* ======================================================== */
+/* ABOUT US START */
+.c-about__us {
+  background-color: rgba(111, 154, 202, 0.699);
+}
+
+.info--ar1 {
+  padding-top: 25px;
+}
+.info--ar3 {
+  padding-bottom: 25px;
+}
+
+.info-h {
+  color: rgb(85, 85, 85);
+  font-size: 20px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.info-p {
+  font-size: 16px;
+  line-height: normal;
+  padding: 7px 25px;
+  text-align: justify;
+}
+
+/* ABOUT US END */
+/* ======================================================== */
+/* CONTACTS START */
+.contacts {
+  background-color: rgba(66, 92, 122, 0.699);
+}
+
+.contacts_info--ar1 {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.contacts_info--ar2 {
+  display: block;
+  text-align: center;
+  padding: 5px 0px;
+  padding-bottom: 25px;
+}
+
+.contacts-h {
+  font-size: 18px;
+  color: black;
+}
+
+.contacts-info {
+  font-size: 16px;
+  color: black;
+  padding: 5px 0px;
+}
+
+.contacts-link {
+  text-decoration: none;
+  color: rgb(209, 209, 209);
+}
+
+.submit {
+  border: 2px solid rgba(133, 133, 133, 0.5);
+  border-radius: 4px;
+  background-color: rgba(133, 133, 133, 0.5);
+  font-size: 16px;
+  padding: 5px 3px;
+  display: inline-flex;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  transition: 0.2s;
+}
+
+.submit:hover {
+  background-color: rgb(133, 131, 131);
+}
+
+.submitColor {
+  color: rgb(31, 31, 31);
+}
+
+.contacts-info--right {
+  display: none;
+}
+
+/* CONTACTS END */
+/* =========================================== */
+/* FOOTER START */
+.footer-container {
+  width: auto;
+  display: flex;
+  height: 10vh;
+  color: azure;
+  background-color: rgba(66, 92, 122, 0.699);
+  text-align: center;
+}
+
+footer {
+  margin: auto;
+  /* text-align: center; */
+}
+/* FOOTER END */
+
+/* ========================================== */
+/* TABLET START*/
+@media only screen and (min-width: 1024px) {
+  /* HEADER START */
+  header {
+    height: 50px;
+  }
+
+  .logo {
+    height: 40px;
+    display: inline-block;
+  }
+
+  nav {
+    text-align: center;
+    float: right;
+    height: 50px;
+  }
+
+  .navbar__link {
+    font-size: 30px;
+    padding: 7px 10px;
+    margin: 0px 10px;
+  }
+  /* HEADER END */
+
+  /* HOME SECTION START */
+  .home {
+    margin-top: 0px;
+  }
+
+  .home {
+    background-image: url(./img/home_bgc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .c-home {
+    background-color: rgba(0, 0, 0, 0.411);
+  }
+
+  .home-info {
+    padding-top: 55px;
+    display: block;
+    text-align: center;
+    height: auto;
+  }
+
+  .home-btns {
+    width: 280px;
+    height: 70px;
+    margin-bottom: 20px;
+  }
+
+  .home-info h1 {
+    font-size: 50px;
+    padding: 32px 30px 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px rgb(133, 133, 133), 0 0 20px rgb(133, 133, 133),
+      0 0 30px #333333, 0 0 40px #333333, 0 0 50px #333333, 0 0 60px #333333,
+      0 0 70px #333333;
+  }
+
+  .home-btn {
+    margin: 0px 15px;
+    font-size: 30px;
+    padding: 0px 30px;
+    color: rgb(161, 161, 161);
+    border: 4px solid rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.445);
+  }
+  /* HOME END */
+  /* ABOUT US START */
+  .info--ar1 {
+    padding-top: 55px;
+  }
+  .info-h {
+    font-size: 40px;
+    padding-top: 15px;
+  }
+
+  .info-p {
+    font-size: 30px;
+    padding: 15px 50px;
+    text-align: center;
+    line-height: 40px;
+  }
+  /* ABOUT US END */
+  /* CONTACTS START */
+  .contacts {
+    background-image: url(./img/contacts_form_bgc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .c-contacts {
+    display: flex;
+    align-self: center;
+    background-color: rgba(0, 0, 0, 0.308);
+  }
+
+  .contacts-info--left {
+    width: 49%;
+    display: block;
+    align-self: center;
+  }
+
+  .contacts-info--right {
+    width: 50%;
+    display: block;
+    /* width: 500px; */
+    height: 300px;
+    align-self: center;
+  }
+
+  .contacts_info--ar1 {
+    padding-top: 30px;
+  }
+
+  .contacts_info--ar2 {
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
+
+  .contacts-h {
+    color: azure;
+    font-size: 30px;
+  }
+
+  .contacts-info {
+    color: azure;
+    font-size: 25px;
+    padding: 10px 0px;
+  }
+
+  .contacts-link {
+    color: antiquewhite;
+  }
+
+  .submit {
+    font-size: 25px;
+    padding: 10px 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.445);
+  }
+
+  .submitColor {
+    color: azure;
+  }
+
+  .mapouter--desc {
+    display: none;
+  }
+
+  /* CONTACTS END */
+  .footer-container {
+    width: auto;
+    height: 5vh;
+  }
+  footer {
+    margin: auto;
+  }
+}
+/* TABLET END */
+/* =============================================== */
+/* DESCKTOP START*/
+@media only screen and (min-width: 1400px) {
+  /* HEADER START */
+  header {
+    width: 100%;
+    height: 55px;
+  }
+
+  .logo {
+    height: 50px;
+    display: inline-block;
+  }
+
+  nav {
+    text-align: center;
+    float: right;
+    height: 54px;
+  }
+
+  .navbar__link {
+    color: rgb(199, 199, 199);
+    font-size: 30px;
+    padding: 7px 10px;
+    margin: 0px 10px;
+  }
+
+  /* spycontroll color */
+  .link-active {
+    border-bottom: 4px solid #6687a5;
+    background-color: #293b48;
+  }
+
+  /* HEADER END */
+  .container {
+    width: 100vh;
+    height: 100vh;
+  }
+  /* HOME SECTION START */
+  .home {
+    margin-top: 0px;
+  }
+
+  .home {
+    background-image: url(./img/home_bgc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .c-home {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: flex;
+  }
+
+  .home-info {
+    align-self: center;
+    display: block;
+    text-align: center;
+    height: auto;
+    margin: auto;
+    padding-top: 0px;
+  }
+
+  .home-btns {
+    padding-top: 60px;
+    width: 280px;
+    height: 70px;
+  }
+
+  .home-info h1 {
+    font-size: 70px;
+    padding: 32px 30px 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px rgb(133, 133, 133), 0 0 20px rgb(133, 133, 133),
+      0 0 30px #333333, 0 0 40px #333333, 0 0 50px #333333, 0 0 60px #333333,
+      0 0 70px #333333;
+  }
+
+  .home-btn {
+    margin: 0px 15px;
+    font-size: 30px;
+    padding: 0px 30px;
+    color: rgb(161, 161, 161);
+    border: 4px solid rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.445);
+  }
+  .home-btn:hover {
+    background-color: rgb(146, 146, 146);
+    color: black;
+  }
+  /* HOME END */
+  /* ABOUT US START */
+  .c-about__us {
+    display: flex;
+    margin: 0;
+    width: 100%;
+  }
+
+  .about__us--left {
+    width: 30%;
+    height: auto;
+    align-self: center;
+    margin: auto;
+  }
+
+  .about__us--right {
+    width: 30%;
+    height: auto;
+    align-self: center;
+    margin: auto;
+  }
+
+  .info--ar1 {
+    padding-top: 0px;
+  }
+
+  .info--ar3 li {
+    text-align: center;
+    line-height: normal;
+    list-style: none;
+  }
+
+  .info-h {
+    font-size: 40px;
+    padding-top: 15px;
+  }
+
+  .info-p {
+    font-size: 20px;
+    padding: 15px 40px;
+    text-align: center;
+    line-height: normal;
+  }
+  /* ABOUT US END */
+  /* CONTACTS START */
+  .contacts {
+    background-image: url(./img/contacts_form_bgc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .c-contacts {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.308);
+    height: 100vh;
+  }
+
+  .contacts-info--left {
+    display: block;
+    width: 50%;
+    margin: auto 100px;
+  }
+
+  .contacts-info--right {
+    display: block;
+    width: 49%;
+    height: 400px;
+    margin: auto 100px;
+  }
+
+  .contacts_info--ar1 {
+    padding-top: 0px;
+  }
+
+  .contacts_info--ar2 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .mapouter {
+    display: none;
+  }
+
+  .mapouter--desc {
+    display: block;
+  }
+
+  .contacts-h {
+    color: azure;
+    font-size: 30px;
+  }
+
+  .contacts-info {
+    color: azure;
+    font-size: 20px;
+    padding: 10px 0px;
+  }
+
+  .contacts-link {
+    color: antiquewhite;
+  }
+
+  .submit {
+    font-size: 20px;
+    padding: 10px 6px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .submitColor {
+    color: azure;
+  }
+
+  /* CONTACTS END */
+  .footer-container {
+    display: flex;
+    height: 10vh;
+  }
+
+  footer {
+    align-self: center;
+  }
+}
+/* DESCKTOP END */

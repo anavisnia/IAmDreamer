@@ -1,0 +1,248 @@
+/* FORM sekcija */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.801);
+  height: 25px;
+}
+
+.logo {
+  display: none;
+}
+
+.form-section {
+  height: 100vh;
+  background-color: rgba(134, 174, 247, 0.89);
+}
+
+.form-frame {
+  height: auto;
+  width: auto;
+}
+
+.form-text {
+  padding-top: 25px;
+}
+
+.form-text h2 {
+  color: rgb(255, 255, 255);
+  margin: auto;
+  margin-bottom: 15px;
+  text-align: center;
+  padding: 7px 0px;
+  font-size: 20px;
+}
+
+.form-body {
+  background-color: rgba(0, 0, 0, 0.253);
+  text-align: center;
+  font-size: 16px;
+}
+
+.form-body h3 {
+  font-size: 18px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  color: azure;
+}
+.input-group {
+  padding: 10px 0px;
+}
+
+.input-group label {
+  color: azure;
+  font-size: 20px;
+  margin: 5px 0;
+  display: block;
+}
+
+.input-group input {
+  width: 55%;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 6px;
+  font-size: 16px;
+}
+
+.input-group textarea {
+  width: 55%;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 6px;
+  font-size: 16px;
+  max-height: 26px;
+}
+
+.footer-container {
+  color: azure;
+  background-color: rgba(66, 92, 122, 0.699);
+  text-align: center;
+}
+/* =============================================== */
+/* TABLET START*/
+@media only screen and (min-width: 1024px) {
+  header {
+    height: 55px;
+  }
+
+  .navbar__link {
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px 10px;
+  }
+
+  .clearfix {
+    clear: both;
+  }
+
+  .form-text {
+    padding-top: 70px;
+  }
+
+  .form-text h2 {
+    padding: 14px 0px;
+    font-size: 40px;
+  }
+
+  .form-body h3 {
+    font-size: 23px;
+    padding-top: 15px;
+    line-height: normal;
+  }
+
+  .input-group {
+    padding: 20px 0px;
+  }
+
+  .input-group label {
+    color: azure;
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  .input-group input {
+    padding: 14px 5px;
+    font-size: 15px;
+  }
+
+  .input-group textarea {
+    font-size: 20px;
+    max-height: 47px;
+  }
+  .submit {
+    margin-bottom: 30px;
+    padding: 15px 15px;
+    font-size: 23px;
+  }
+}
+/* TABLET END */
+/* =============================================== */
+/* DESCKTOP START*/
+@media only screen and (min-width: 1500px) {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    height: 55px;
+  }
+
+  nav {
+    float: right;
+    height: 55px;
+  }
+
+  .navbar__link {
+    font-size: 24px;
+    padding: 10px 20px;
+  }
+
+  .clearfix {
+    clear: both;
+  }
+
+  .form-section {
+    display: flex;
+    /* pervadinti img i trumpiasnius */
+    background-image: url("./img/contacts_form_bgc.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: auto;
+    margin: 0;
+  }
+
+  .container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 55px 0px;
+    height: 100vh;
+  }
+
+  .form-text {
+    padding-top: 54px;
+  }
+
+  .form-text h2 {
+    color: azure;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 13px 0px;
+    font-size: 40px;
+  }
+
+  .form-body {
+    background-color: rgba(0, 0, 0, 0.473);
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    height: auto;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .form-body h3 {
+    font-size: 23px;
+    margin-bottom: 5px;
+  }
+  .input-group {
+    padding: 10px 0px;
+  }
+
+  .input-group50 {
+    display: inline-block;
+    width: 35%;
+  }
+
+  .input-group label {
+    font-size: 20px;
+    margin: 8px 0;
+    /* display: block; */
+  }
+
+  .input-group input {
+    width: 55%;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 16px;
+  }
+
+  .input-group textarea {
+    width: 55%;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 16px;
+    max-height: 40px;
+  }
+
+  .footer-container {
+    background-color: rgba(66, 92, 122, 0.699);
+  }
+}
+/* DESCKTOP END */
